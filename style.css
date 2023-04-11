@@ -1,0 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px;
+}
+
+h2 p {
+    text-align: justify;
+}
+
+.info {
+    text-align: center;
+    line-height: 50%;
+}
+
+.detail-infos h2 {
+    color: rgb(4, 141, 221);
+}
+
+table,
+td,
+th {
+
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.footer {
+    text-align: center;
+    padding: 5px;
+}
